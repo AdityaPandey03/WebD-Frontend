@@ -47,8 +47,8 @@ body{
 
 .create-note-input{
     border: none;
-    height: 65%;
-    width:80%;
+    height: 60%;
+    width:90%;
     border-radius: 25px;
     color: black;
     padding: 10px;
@@ -57,10 +57,11 @@ body{
     text-align: center;
 }
 
+
 .create-note-heading{
     border: none;
     height: 10%;
-    width:80%;
+    width:90%;
     border-radius: 25px;
     color: black;
     padding: 10px;
@@ -68,7 +69,7 @@ body{
 }
 
 
-.create-note-input:focus{
+.create-note-input:focus,create-note-heading:focus{
     outline:none ;
 }
 
